@@ -1,0 +1,154 @@
+.md_input {
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  background-color: #f1f1f1 !important;
+  border: solid 0.1em #ccc !important;
+}
+
+.setting_param_label {
+  margin: 1em 0 0.5em;
+}
+.setting_param_label:first-of-type {
+  margin-top: 0;
+}
+
+.pages_list {
+  height: 201px;
+  min-height: 42px;
+  max-height: 201px;
+  overflow: auto;
+  box-sizing: border-box !important;
+  font-size: 14px;
+}
+
+.pages_list ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul.nested_list {
+  padding-left: 1em !important;
+} 
+
+.pages_list li {
+  list-style-type: none;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+
+
+.tabs {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 0;
+}
+.tabs li {
+  float: left;
+  width: 33%;
+}
+.tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888;
+  padding: 0.25em 0;
+  border-bottom: 2px solid #888;
+  background: #f7f7f7;
+}
+.tabs a:hover,
+.tabs a.active {
+  background: #ddd;
+  color: #333;
+}
+.tabgroup div {
+  /* padding: 30px; */
+  /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); */
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+.sitemap_view_block {
+  /* min-height: 200px; */
+  max-width: 100%;
+  position: relative;
+  box-shadow: inset 0px 0px 20px -10px black;
+  margin: 1em 0;
+  border: solid 1px #ccc;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sitemap_view_block.no_border {
+  border: none;
+  box-shadow: none;
+}
+
+/* .sitemap_size_options {
+  font-size: 0.9em;
+} */
+
+.sitemap_size_options__advanced {
+  display: none;
+}
+
+.sitemap_size_options__basic {
+  /* display: none; */
+}
+
+.table {
+  display: table;
+  border-spacing: 5px;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sitemap_size_options__label {
+  width: 40%;
+  font-size: 0.8em;
+}
+
+.sitemap_size_options__value {
+  width: 40%;
+}
+
+.cell.colspan{
+  font-style: italic; 
+  color: #888; 
+  font-size: 0.8em;
+  text-align: center
+}
+
+.advancedSettings__panelRow {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+.advancedSettings__label {
+  font-weight: bold;
+  font-size: 0.9em;
+  text-transform: capitalize
+}
+
+.advanced_note {
+  font-style: italic;
+  font-size: 0.7em;
+  color: #777 !important;
+  display: initial !important;
+}
+
+.shortcode_settings {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}

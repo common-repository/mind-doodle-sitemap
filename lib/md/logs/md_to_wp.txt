@@ -1,0 +1,8 @@
+
+-------start--------
+a:3:{s:6:"action";s:6:"update";s:7:"post_id";s:3:"101";s:10:"post_title";s:10:"xerex tets";}
+--------end---------
+
+-------start--------
+a:3:{s:6:"action";s:6:"update";s:7:"post_id";s:3:"101";s:10:"post_title";s:5:"xerex";}
+--------end---------
